@@ -1,0 +1,60 @@
+# Core Data Processing Libraries
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.11.1
+
+# Twitter API
+tweepy==4.14.0
+
+# Kaggle API
+kaggle==1.5.13
+
+# Natural Language Processing
+nltk==3.8.1
+textblob==0.17.1
+spacy==3.6.0
+
+# Machine Learning & NLP Models
+scikit-learn==1.3.0
+transformers==4.31.0
+torch==2.0.1
+
+# Sentiment Analysis & Emotion Detection
+vaderSentiment==3.3.2
+
+# Data Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.16.1
+
+# Jupyter & Notebooks
+jupyter==1.0.0
+ipython==8.14.0
+ipywidgets==8.0.7
+
+# Environment & Configuration
+python-dotenv==1.0.0
+python-yaml==6.0
+pyyaml==6.0
+
+# HTTP & Web
+requests==2.31.0
+urllib3==2.0.4
+
+# Utilities
+tqdm==4.66.1
+joblib==1.3.1
+
+# Optional: Advanced NLP
+gensim==4.3.1  # Topic modeling
+
+# Optional: Deep Learning
+tensorflow==2.13.0  # If needed for advanced models
+
+# Development Tools
+jupyter-contrib-nbextensions==0.7.0
+black==23.7.0  # Code formatter
+flake8==6.0.0  # Linter
+
+# Data Exploration
+seaborn-data==0.0.1
