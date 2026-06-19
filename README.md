@@ -1,17 +1,17 @@
 # Caregiver Burden Analysis - Multimodal Dataset
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes **caregiver burden** using multimodal data sources including **text, images, and metadata** from social media platforms and publicly available datasets. The goal is to understand the emotional, physical, and psychological challenges faced by caregivers through sentiment analysis, emotion detection, and topic modeling.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. **Collect Data** from multiple sources:
-   - 🐦 **Twitter/X**: Caregiver discussions and experiences
-   - 📊 **Kaggle**: Public health and caregiver datasets
-   - 📸 **Images**: Visual content related to caregiving
+   - **Twitter/X**: Caregiver discussions and experiences
+   - **Kaggle**: Public health and caregiver datasets
+   - **Images**: Visual content related to caregiving
 
 2. **Analyze Caregiver Burden** through:
    - Sentiment Analysis (Positive/Negative/Neutral)
@@ -93,26 +93,26 @@ caregiver-burden-multimodal/
 
 ## 📊 Data Sources
 
-### 1. **Twitter/X API** 🐦
+### 1. **Twitter/X API** 
 - **Keywords**: #caregiver, #caregiverburden, #familycaregiver
 - **Data collected**: Tweets, likes, retweets, user profiles
 - **Language**: English
 - **Time period**: Recent tweets (last 6-12 months)
 
-### 2. **Kaggle Datasets** 📊
+### 2. **Kaggle Datasets** 
 - Mental health datasets
 - Healthcare burden studies
 - Social media sentiment datasets
 - Public health data
 
-### 3. **Images** 📸
+### 3. **Images** 
 - Infographics about caregiving
 - Visual content from social media
 - Healthcare-related images
 
 ---
 
-## 📋 Setup & Installation
+##  Setup & Installation
 
 ### **Step 1: Clone the Repository**
 ```bash
@@ -139,14 +139,14 @@ KAGGLE_USERNAME=your_kaggle_username
 KAGGLE_KEY=your_kaggle_api_key
 ```
 
-⚠️ **IMPORTANT**: Never commit `.env` file to GitHub! It's in `.gitignore` for security.
+**IMPORTANT**: Never commit `.env` file to GitHub! It's in `.gitignore` for security.
 
 ### **Step 5: Configure Kaggle API**
 Place `kaggle.json` in `~/.kaggle/` directory (see requirements.txt notes)
 
 ---
 
-## 📚 Notebooks Overview
+## Notebooks Overview
 
 | Notebook | Description |
 |----------|-----------|
@@ -160,7 +160,7 @@ Place `kaggle.json` in `~/.kaggle/` directory (see requirements.txt notes)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run Data Collection:
 ```python
@@ -195,25 +195,25 @@ features = extractor.extract_sentiment(clean_data)
 
 ## 📈 Expected Analysis Output
 
-✅ **Sentiment Distribution**
+**Sentiment Distribution**
 - Percentage of positive, negative, neutral sentiments
 - Trend analysis over time
 
-✅ **Emotion Analysis**
+**Emotion Analysis**
 - Common emotions in caregiver discussions
 - Emotion intensity scores
 
-✅ **Topic Modeling**
+**Topic Modeling**
 - Top 10-15 themes in caregiver discussions
 - Keywords for each topic
 - Topic prevalence
 
-✅ **Burden Indicators**
+**Burden Indicators**
 - Stress-related keywords and phrases
 - Health concerns mentioned
 - Support needs identified
 
-✅ **Visualizations**
+**Visualizations**
 - Word clouds
 - Sentiment timelines
 - Topic distribution charts
@@ -224,28 +224,28 @@ features = extractor.extract_sentiment(clean_data)
 
 ## 📝 Data Ethics & Privacy
 
-✅ **Twitter Data**: Public tweets only, respecting Twitter's ToS  
-✅ **User Privacy**: No personal identification data stored  
-✅ **Consent**: Using publicly available, consented data  
-✅ **Responsible AI**: Results used to help caregivers, not discriminate  
+**Twitter Data**: Public tweets only, respecting Twitter's ToS  
+**User Privacy**: No personal identification data stored  
+**Consent**: Using publicly available, consented data  
+**Responsible AI**: Results used to help caregivers, not discriminate  
 
 ---
 
-## 🔐 Security Notes
+## Security Notes
 
-⚠️ **API Keys & Tokens**:
+ **API Keys & Tokens**:
 - Store in `.env` file (added to `.gitignore`)
 - Never commit credentials to GitHub
 - Regenerate keys if accidentally exposed
 
-⚠️ **Data Storage**:
+**Data Storage**:
 - Raw data stored locally, not on GitHub
 - Large files in `/data/raw/` folder
 - Use `.gitignore` for data files
 
 ---
 
-## 📖 References & Resources
+##  References & Resources
 
 ### APIs:
 - [Twitter API v2 Documentation](https://developer.twitter.com/en/docs/twitter-api)
@@ -264,7 +264,7 @@ features = extractor.extract_sentiment(clean_data)
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 1. Fork the repository
@@ -275,20 +275,20 @@ Contributions are welcome! Please:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Tanushka Bhati**  
 GitHub: [@Tanushkabhati](https://github.com/Tanushkabhati)
 
 ---
 
-## 📧 Contact & Support
+##  Contact & Support
 
 For questions or issues:
 - Open an issue on GitHub
@@ -297,7 +297,7 @@ For questions or issues:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Twitter/X for API access
 - Kaggle for datasets
@@ -306,10 +306,10 @@ For questions or issues:
 
 ---
 
-## 📅 Last Updated
+## Last Updated
 
 June 2026
 
 ---
 
-**Happy researching! 🎉 Together, let's understand and support caregivers better.**
+**Happy researching! Together, let's understand and support caregivers better.**
